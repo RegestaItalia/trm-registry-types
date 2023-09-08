@@ -1,0 +1,2 @@
+- [Request types](docs/requests.md)
+- [Response types](docs/responses.md)
