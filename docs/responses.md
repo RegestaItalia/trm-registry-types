@@ -129,3 +129,23 @@ Based on this type, the client may render the message with differen styles.
 - release - [Release](#release)
 
     Release of the package.
+
+## AuthOAuth2
+- access_token - **required** - `string`
+
+    User access token.
+
+- token_type - **required** - `string`
+
+    Type of the token issued.
+
+    Allowed values are:
+    - `Bearer` when token type is Bearer
+
+- expires_in - **required** - `number`
+
+    The number of seconds that the access token will be valid.
+
+- refresh_token - `string`
+
+    Refresh token.
