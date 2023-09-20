@@ -3,11 +3,13 @@
 ## AuthenticationType
 Indicates all possible authentication flows supported by [trm-core](https://www.npmjs.com/package/trm-core).
 - `NO_AUTH`
-    All requests to the registry will be executed without any authentication header.
+    All requests to the registry will be executed without Authorization header.
 - `BASIC`
-    All requests to the registry will be executed with a basic authentication.
+    All requests to the registry will be executed with the Authorization header, and its value is a Basic token.
 - `OAUTH2`
-    All requests to the registry will be executed with a bearer token.
+    All requests to the registry will be executed with the Authorization header, and its value is a Bearer token.
+- `TOKEN`
+    All requests to the registry will be executed with the Authorization header, and its value is a custom token.
 
 
 ## MessageType
@@ -57,7 +59,7 @@ Based on this type, the client may render the message with differen styles.
 
 - authenticationData - [OAuth2Data](#oauth2data)
 
-    Mandatory when authenticationType is not set to `NO_AUTH`.
+    Mandatory when authenticationType is set to `OAUTH2`.
 
 - wallMessage - [ResponseMessage](#responsemessage)
 
