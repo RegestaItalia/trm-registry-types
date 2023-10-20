@@ -1,4 +1,4 @@
-name: Update Readme
+name: Update Readme (docs.trmregistry.com)
 on:
   workflow_dispatch:
   push:
@@ -28,4 +28,5 @@ jobs:
           actionPath: actions/regesta/trm/updateReadme
           repoFullName: ${{ github.repository }}
           branch: ${{ github.ref_name }}
-          githubToken: ${{ secrets.CI_GITHUB_TOKEN }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          replacePath: registry/private/api/types/
