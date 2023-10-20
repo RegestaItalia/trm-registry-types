@@ -13,8 +13,7 @@ The API documentation (and object usage) can be found [here](https://docs.trmreg
 
 <!-- START TABLE_OF_CONTENTS.md -->
 - [Request types](docs/requests.md)
-- [Response types](docs/responses.md)
-<!-- END TABLE_OF_CONTENTS.md -->
+- [Response types](docs/responses.md)<!-- END TABLE_OF_CONTENTS.md -->
 
 # Contributing <!-- {docsify-remove} -->
 
