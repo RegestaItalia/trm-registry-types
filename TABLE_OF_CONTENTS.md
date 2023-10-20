@@ -1,2 +1,2 @@
-- [Request types](docs/requests.md)
-- [Response types](docs/responses.md)
+- [Request types](registry/private/api/types/docs/requests.md)
+- [Response types](registry/private/api/types/docs/responses.md)
