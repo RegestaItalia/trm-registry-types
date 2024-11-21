@@ -9,5 +9,6 @@ export type View = {
     git?: string,
     license?: string,
     userAuthorizations: UserAuthorization,
-    release?: Release
+    release?: Release,
+    message?: string
 }

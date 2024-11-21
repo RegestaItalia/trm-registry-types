@@ -132,6 +132,10 @@ Based on this type, the client may render the message with differen styles.
 
     Release of the package.
 
+- message - `string`
+
+    Error message.
+
 ## AuthOAuth2
 - access_token - **required** - `string`
 

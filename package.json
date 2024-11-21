@@ -1,6 +1,6 @@
 {
   "name": "trm-registry-types",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "TRM Registry Types",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
