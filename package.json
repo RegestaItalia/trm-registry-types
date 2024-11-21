@@ -1,6 +1,6 @@
 {
   "name": "trm-registry-types",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "TRM Registry Types",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,8 @@
     "/dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "trm",
