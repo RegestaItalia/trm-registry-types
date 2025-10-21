@@ -1,9 +1,10 @@
 import { AuthenticationType } from "./AuthenticationType";
 import { OAuth2Data } from "./OAuth2Data";
-import { ResponseMessage } from "./ResponseMessage";
+import { Message } from "./Message";
 
-export type Ping = {
-    authenticationType: AuthenticationType,
-    authenticationData?: OAuth2Data,
-    wallMessage?: ResponseMessage,
+export interface Ping {
+    authentication_type: AuthenticationType,
+    authentication_data?: OAuth2Data,
+    alert_email?: string,
+    messages?: Message[]
 }

@@ -1,8 +1,6 @@
-import { ResponseMessage } from "./ResponseMessage"
+import { Message } from "./Message";
 
-export type WhoAmI = {
-    logonMessage?: ResponseMessage,
-    username: string,
-    subscription?: string,
-    subscriptionEnd?: Date
+export interface WhoAmI {
+    user: string,
+    messages?: Message[]
 }

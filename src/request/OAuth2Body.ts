@@ -1,4 +1,4 @@
-export type OAuth2Body = {
+export interface OAuth2Body {
     grant_type : 'refresh_token' | 'authorization_code',
     code?: string,
     refresh_token?: string,
