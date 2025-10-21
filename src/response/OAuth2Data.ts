@@ -1,6 +1,6 @@
 export type OAuth2Data = {
-    authorizationUrl: string,
-    clientId: string,
-    responseType: 'code',
+    authorization_url: string,
+    client_id: string,
+    response_type: 'code',
     scope?: string
 }

@@ -1,4 +1,4 @@
-export type AuthOAuth2 = {
+export interface AuthOAuth2 {
     access_token: string,
     token_type: 'Bearer',
     expires_in: number,

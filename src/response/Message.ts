@@ -1,6 +1,6 @@
 import { MessageType } from "./MessageType"
 
-export type ResponseMessage = {
+export interface Message {
     type: MessageType,
     text: string
 }
