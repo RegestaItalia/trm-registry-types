@@ -1,6 +1,5 @@
 export interface Package {
     name: string
-    latest: string
     dist_tags: Record<string, string>
     versions: string[]
     yanked_versions: string[]
