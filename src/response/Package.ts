@@ -8,5 +8,6 @@ export interface Package {
     deprecated_message?: string
     download_link: string
     download_link_expiry?: number
+    changelog?: string
     checksum: string
 }
