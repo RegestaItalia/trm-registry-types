@@ -7,4 +7,5 @@ export interface PackageContents {
     tdevct: PackageContentsEntry[]
     tadir: PackageContentsEntry[]
     e071: PackageContentsEntry[]
+    [table: string]: PackageContentsEntry[]
 }

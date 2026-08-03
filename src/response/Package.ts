@@ -1,3 +1,5 @@
+import { Transport } from "./Transport"
+
 export interface Package {
     name: string
     dist_tags: Record<string, string>
@@ -10,4 +12,5 @@ export interface Package {
     download_link_expiry?: number
     changelog?: string
     checksum: string
+    transports: Transport[]
 }
