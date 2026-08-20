@@ -7,7 +7,6 @@ export * from "./Ping";
 export * from "./WhoAmI";
 export * from "./Package";
 export * from "./BatchCompareResponse";
-export * from "./PackageContents";
 export * from "./Publish";
 export * from "./Transport";
 export * from "./TransportDownload";
