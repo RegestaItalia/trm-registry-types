@@ -10,13 +10,3 @@
 The documentation of TRM Registry Types is only related to the request and response objects.
 
 The API documentation (and object usage) can be found [here](https://docs.trmregistry.com).
-
-# Contributing <!-- {docsify-remove} -->
-
-Like every other TRM open-soruce projects, contributions are always welcomed ❤️.
-
-Make sure to open an issue first.
-
-Contributions will be merged upon approval.
-
-[Click here](https://docs.trmregistry.com/#/CONTRIBUTING) for the full list of TRM contribution guidelines.
