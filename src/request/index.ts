@@ -7,3 +7,4 @@ export * from "./TransportDownloadRequest";
 export * from "./DeleteTransportRequest";
 export * from "./PublishRequest";
 export * from "./TelemetryRequest";
+export * from "./SearchRequest";
