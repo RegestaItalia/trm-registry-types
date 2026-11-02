@@ -6,3 +6,4 @@ export * from "./BatchCompareRequest";
 export * from "./TransportDownloadRequest";
 export * from "./DeleteTransportRequest";
 export * from "./PublishRequest";
+export * from "./TelemetryRequest";
